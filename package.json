@@ -1,0 +1,23 @@
+{
+  "name": "bingo-builder",
+  "version": "1.0.0",
+  "description": "Build Bingo Boards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffDanger/bingo-builder.git"
+  },
+  "author": "Jeff Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffDanger/bingo-builder/issues"
+  },
+  "homepage": "https://github.com/JeffDanger/bingo-builder#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
