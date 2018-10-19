@@ -1,0 +1,49 @@
+*{
+    /* Reset Everything */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boardArea{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#boardArea .boardTable{
+    border-collapse: collapse;
+    width: 7in;
+    height: 7in;
+}
+.boardCell{
+    width: 16%;
+    border: 1px solid black;
+    vertical-align: top;
+}
+.cellLabel{
+    border:1px solid black;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 25%;
+    line-height: 1.5em;
+    text-align: center;
+    margin: -1px;
+}
+.logo{
+    background-image: url('img/logo-large.png');
+    background-size: contain;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    -webkit-print-color-adjust: exact;
+}
+.teamName{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding: 1% 0 5px 0;
+    width: 100%;
+}
