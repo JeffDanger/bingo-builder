@@ -19,8 +19,12 @@ const buildBoard = () => {
             content += '<tr>';
         }
         content += '<td class="boardCell">'+
-                        '<div class="cellLabel"><span class="cellLabelText">'+array[i]+'</span></div>'+
-                    '</td>';
+                        '<div class="cellLabel"><span class="cellLabelText">'+array[i]+'</span></div>';
+        if( array[i] % 6 === 0 ){
+            content += '<span class="note">♫</span>';
+        }
+        
+        content += '</td>';
     }
     content += '</table>';
 
