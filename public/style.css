@@ -19,6 +19,7 @@
 }
 .boardCell{
     width: 16%;
+    height: 16%;
     border: 1px solid black;
     vertical-align: top;
 }
@@ -35,8 +36,8 @@
 .logo{
     background-image: url('img/logo-large.png');
     background-size: contain;
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 100px;
     margin: 0 auto;
     -webkit-print-color-adjust: exact;
 }
