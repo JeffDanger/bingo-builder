@@ -35,9 +35,9 @@
 }
 .logo{
     background-image: url('img/logo-large.png');
-    background-size: contain;
+    background-size: cover;
     width: 250px;
-    height: 100px;
+    height: 220px;
     margin: 0 auto;
     -webkit-print-color-adjust: exact;
 }
